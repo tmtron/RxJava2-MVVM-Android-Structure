@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/RxJava2-MVVM-Android-Structure.iml" filepath="$PROJECT_DIR$/RxJava2-MVVM-Android-Structure.iml" />
       <module fileurl="file://$PROJECT_DIR$/RxJava2_MVVM_Android_Structure.iml" filepath="$PROJECT_DIR$/RxJava2_MVVM_Android_Structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
