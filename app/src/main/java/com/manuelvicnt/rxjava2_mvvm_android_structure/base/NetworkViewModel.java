@@ -1,5 +1,7 @@
 package com.manuelvicnt.rxjava2_mvvm_android_structure.base;
 
+import android.support.annotation.CallSuper;
+
 import io.reactivex.observers.DisposableMaybeObserver;
 
 import static com.manuelvicnt.rxjava2_mvvm_android_structure.base.Constants.REQUEST_FAILED;
@@ -40,12 +42,14 @@ public abstract class NetworkViewModel {
     protected class MaybeNetworkObserver<T> extends DisposableMaybeObserver<T> {
 
         @Override
+        @CallSuper
         public void onSuccess(T value) {
 
             requestState = REQUEST_SUCCEEDED;
         }
 
         @Override
+        @CallSuper
         public void onError(Throwable e) {
 
             lastError = e;
